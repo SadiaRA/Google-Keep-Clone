@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: lightcoral;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+  display:flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  background-color: blueviolet;
+}
+.main_note{
+  display:inline-block;
+  float:left;
+  margin: 10px;
+  background-color: white;
+  justify-content: center;
+  height: 150px;
+  width:40%;
+  border: transparent;
+  border-radius: 10%;
+
+}
+.deleteIcon:hover{
+  background-color: red;
+}
+footer{
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+
+  
+}
+form{
+  margin: 10px;
+  margin-top: 20px;
+display: flex;
+flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+form input{
+  width:200px;
+  
+}
+.note{
+display: flex;
+
+
+ 
+  width:30%;
+  height: auto;
+  border: black thick ;
+  background: blanchedalmond;
+  border-radius: 20%;
+  margin:20px;
+}
